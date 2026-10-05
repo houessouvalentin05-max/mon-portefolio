@@ -22,7 +22,7 @@ export function renderPage() {
 
     <header class="hero wrap" id="top">
       <div class="hero-copy reveal">
-        <p class="availability"><span class="live-dot"></span><span class="fr">Disponible pour de nouveaux projets · Lomé, Togo</span><span class="en">Open to new projects · Lomé, Togo</span></p>
+        <p class="availability"><span class="fr">Disponible pour de nouveaux projets · Lomé, Togo</span><span class="en">Open to new projects · Lomé, Togo</span></p>
         <h1 aria-label="Houessou Valentin"><span class="name-line">${renderNameLetters('Houessou')}</span><span class="name-line name-accent"><em>${renderNameLetters('Valentin')}</em></span></h1>
         <p class="hero-intro fr">Développeur full-stack autodidacte. Je conçois des produits web <strong>rapides, sécurisés et soignés</strong>, du premier pixel à la mise en ligne, sous la bannière VOID STUDIO.</p>
         <p class="hero-intro en">Self-taught full-stack developer. I build web products that are <strong>fast, secure and carefully crafted</strong>, from first pixel to launch, under the VOID STUDIO banner.</p>
