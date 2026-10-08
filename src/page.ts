@@ -41,7 +41,7 @@ export function renderPage() {
     <main>
       <section class="section wrap" id="about">
         <div class="section-heading"><p class="eyebrow">01 / PRINCIPES</p><h2><span class="fr">Le travail bien fait n'est pas <em>négociable.</em></span><span class="en">Work done right is <em>non-negotiable.</em></span></h2></div>
-        <div class="about-copy"><p class="fr"> La vitesse d'un outil moderne, avec la rigueur d'un développeur ambitieux , Prêt à répondre à vos besoins et exigeances.</p><p class="en">I work with AI like a fast team: it drafts, I review, test and secure. Modern speed with the rigor of a developer who signs their code.</p></div>
+        <div class="about-copy"><p class="fr">La vitesse d'un outil moderne, avec la rigueur d'un développeur ambitieux, prêt à répondre à vos besoins et exigences.</p><p class="en">The speed of modern tools, with the rigor of an ambitious developer ready to meet your needs and requirements.</p></div>
         <div class="principles">
           <article class="principle"><span class="principle-index">01</span><h3><span class="fr">Sécurité d'abord</span><span class="en">Security first</span></h3><p class="fr">Accès aux données par utilisateur, calculs sensibles côté serveur, dépendances auditées.</p><p class="en">Per-user data access, sensitive logic on the server, audited dependencies.</p></article>
           <article class="principle"><span class="principle-index">02</span><h3><span class="fr">Testé, pas supposé</span><span class="en">Tested, not assumed</span></h3><p class="fr">Tests automatisés et intégration continue pour livrer sans croiser les doigts.</p><p class="en">Automated tests and continuous integration, so shipping never means crossing fingers.</p></article>
