@@ -9,7 +9,7 @@ export function renderPage() {
   const app = document.querySelector<HTMLDivElement>('#app')!
   app.innerHTML = `
     <nav class="nav" aria-label="Navigation principale">
-      <a class="brand" href="#top" aria-label="Valentin Houessou, accueil">V<span>.</span>H</a>
+      <a class="brand" href="#top" aria-label="Valentin Houessou, accueil">H<span>.</span>V</a>
       <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
       <div class="nav-links" id="nav-links">
         <a href="#about"><span class="fr">À propos</span><span class="en">About</span></a>
@@ -20,12 +20,12 @@ export function renderPage() {
       </div>
     </nav>
 
+    <!-- HERO : nom, présentation bilingue et boutons d'action -->
     <header class="hero wrap" id="top">
       <div class="hero-copy reveal">
-        <p class="availability"><span class="fr">Disponible pour de nouveaux projets · Lomé, Togo</span><span class="en">Open to new projects · Lomé, Togo</span></p>
         <h1 aria-label="Houessou Valentin"><span class="name-line">${renderNameLetters('Houessou')}</span><span class="name-line name-accent"><em>${renderNameLetters('Valentin')}</em></span></h1>
-        <p class="hero-intro fr">Développeur full-stack autodidacte. Je conçois des produits web <strong>rapides, sécurisés et soignés</strong>, du premier pixel à la mise en ligne, sous la bannière VOID STUDIO.</p>
-        <p class="hero-intro en">Self-taught full-stack developer. I build web products that are <strong>fast, secure and carefully crafted</strong>, from first pixel to launch, under the VOID STUDIO banner.</p>
+        <p class="hero-intro fr">Développeur full-stack freelance passionné. Pour vous ,je conçois des produits web <strong>rapides, sécurisés et soignés</strong>, de l'idée à la mise en ligne.</p>
+        <p class="hero-intro en">Passionate freelance full-stack developer. I build web products that are <strong>fast, secure and carefully crafted</strong>, from idea to launch.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#contact"><span class="fr">Démarrons un projet</span><span class="en">Start a project</span><span aria-hidden="true">↗</span></a>
           <a class="button button-quiet" href="#work"><span class="fr">Voir mes réalisations</span><span class="en">See my work</span></a>
@@ -41,7 +41,7 @@ export function renderPage() {
     <main>
       <section class="section wrap" id="about">
         <div class="section-heading"><p class="eyebrow">01 / PRINCIPES</p><h2><span class="fr">Le travail bien fait n'est pas <em>négociable.</em></span><span class="en">Work done right is <em>non-negotiable.</em></span></h2></div>
-        <div class="about-copy"><p class="fr">Je travaille avec l'IA comme avec une équipe rapide : elle produit, moi je relis, je teste et je sécurise. La vitesse d'un outil moderne, avec la rigueur d'un développeur qui signe son code.</p><p class="en">I work with AI like a fast team: it drafts, I review, test and secure. Modern speed with the rigor of a developer who signs their code.</p></div>
+        <div class="about-copy"><p class="fr"> La vitesse d'un outil moderne, avec la rigueur d'un développeur ambitieux , Prêt à répondre à vos besoins et exigeances.</p><p class="en">I work with AI like a fast team: it drafts, I review, test and secure. Modern speed with the rigor of a developer who signs their code.</p></div>
         <div class="principles">
           <article class="principle"><span class="principle-index">01</span><h3><span class="fr">Sécurité d'abord</span><span class="en">Security first</span></h3><p class="fr">Accès aux données par utilisateur, calculs sensibles côté serveur, dépendances auditées.</p><p class="en">Per-user data access, sensitive logic on the server, audited dependencies.</p></article>
           <article class="principle"><span class="principle-index">02</span><h3><span class="fr">Testé, pas supposé</span><span class="en">Tested, not assumed</span></h3><p class="fr">Tests automatisés et intégration continue pour livrer sans croiser les doigts.</p><p class="en">Automated tests and continuous integration, so shipping never means crossing fingers.</p></article>
